@@ -15,5 +15,4 @@ Vim plugins
 * snipmate : Snippets
 * syntastic : Syntax checking
 * vim-airline : Bottom line
-* vim-css-color : Css hex colors background
 * vim-indent-guides : Show indent levels
