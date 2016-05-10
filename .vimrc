@@ -34,9 +34,9 @@ set cindent                                     " C indentation style
 set autoindent                                  " Indents automatically on newlines
 filetype plugin indent on                       " File type detection
 
-set tabstop=4                                   " Number of spaces for a tab
-set shiftwidth=4                                " Number of spaces for each step of indentation
-set softtabstop=4                               " Number of spaces for a tab while editing
+set tabstop=2                                   " Number of spaces for a tab
+set shiftwidth=2                                " Number of spaces for each step of indentation
+set softtabstop=2                               " Number of spaces for a tab while editing
 set expandtab                                   " Replace a tab by spaces
 set list listchars=tab:→\ ,trail:·              " Show tabs and trailing spaces
 
@@ -49,6 +49,7 @@ set colorcolumn=81                              " Highlights column 81 of the cu
 
 set incsearch                                   " Starts searching while typing (incremental search)
 set hlsearch                                    " Highlights search results
+set ic
 
 set wildmenu                                    " Shows menu with command autocompletes results
 set wildmode=longest:full                       " Command autocomplete shell like
